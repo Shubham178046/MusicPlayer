@@ -1,0 +1,17 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape>
+            <gradient
+                android:centerX="0.5"
+                android:centerY="0.3"
+                android:endColor="@color/black"
+                android:gradientRadius="300dp"
+                android:startColor="@color/black"
+                android:type="linear" />
+        </shape>
+    </item>
+
+    <item android:gravity="end">
+        <bitmap android:src="@drawable/layer1" android:alpha="0.9"/>
+    </item>
+</layer-list>
